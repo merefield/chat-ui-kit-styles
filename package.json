@@ -43,8 +43,8 @@
     "semantic-release": "17.2.4"
   },
   "scripts": {
-    "build:clean": "rm -Rf dist",
-    "build:autoprefixer": "postcss dist/**/*.css -r -m --no-map --use autoprefixer",
+    "build:clean": "rm -Rf docs",
+    "build:autoprefixer": "postcss docs/**/*.css -r -m --no-map --use autoprefixer",
     "build:sass": "node ./scripts/build-all",
     "build": "npm-run-all -s build:clean build:sass build:autoprefixer",
     "pack": "yarn pack",
@@ -56,7 +56,7 @@
     }
   },
   "files": [
-    "dist",
+    "docs",
     "scripts",
     "themes"
   ],

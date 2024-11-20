@@ -56,7 +56,7 @@ const sassCompressedOptions = {
 
 dirs.forEach( dir => {
     
-    const distDirectory = `./dist/${dir.name}`;
+    const distDirectory = `./docs/${dir.name}`;
     const outputFile = path.join( distDirectory, "styles" );
     const outputFileName = outputFile + ".css";
     const outputMinFileName = outputFile + ".min.css";
