@@ -45,6 +45,7 @@ $_message-input-content-editor-container-max-height: $message-input-max-lines * 
     padding: $message-input-content-editor-wrapper-padding;
     border-radius: $message-input-content-editor-wrapper-border-radius;
     flex-grow:1;
+    overflow: hidden;
 
     #{$message-input-class}--disabled & {
       background-color: $message-input-content-editor-disabled-bg-color;
