@@ -1761,8 +1761,7 @@
   border: solid 1px #d1dbe3;
 }
 .cs-button:hover:not(:disabled) {
-  opacity: 1;
-  filter: brightness(150%);
+  opacity: 0.6;
 }
 .cs-button.cs-button--right > svg[data-icon]:first-child {
   margin-right: 0.5em;
