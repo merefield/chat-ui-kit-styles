@@ -39,7 +39,10 @@
   
   &:hover:not(:disabled) {
     opacity: $button-hover-opacity;
-    &.toggle {
+  }
+
+  &.toggle {
+    &:hover:not(:disabled) {
       opacity: 1;
       filter: brightness(150%);
     }

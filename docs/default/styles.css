@@ -1763,7 +1763,7 @@
 .cs-button:hover:not(:disabled) {
   opacity: 0.6;
 }
-.cs-button:hover:not(:disabled).toggle {
+.cs-button.toggle:hover:not(:disabled) {
   opacity: 1;
   filter: brightness(150%);
 }
