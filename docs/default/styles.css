@@ -1763,6 +1763,10 @@
 .cs-button:hover:not(:disabled) {
   opacity: 0.6;
 }
+.cs-button:hover:not(:disabled).toggle {
+  opacity: 1;
+  filter: brightness(150%);
+}
 .cs-button.cs-button--right > svg[data-icon]:first-child {
   margin-right: 0.5em;
 }

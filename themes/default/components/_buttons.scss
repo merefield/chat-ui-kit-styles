@@ -39,6 +39,10 @@
   
   &:hover:not(:disabled) {
     opacity: $button-hover-opacity;
+    &.toggle {
+      opacity: 1;
+      filter: brightness(150%);
+    }
   }
   
   &#{$button-class}--right {
